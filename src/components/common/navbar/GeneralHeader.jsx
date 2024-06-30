@@ -170,7 +170,7 @@ const GeneralHeader = () => {
                          </div>
                          <div className="overy-border"></div>
                          <div className="user-profile-icons pt-3">
-                          <Link className="user-wrap-icons">
+                          <Link to ={"/author-page"} className="user-wrap-icons">
                             <div className="user-item">
                              <CiUser />
                             </div>
